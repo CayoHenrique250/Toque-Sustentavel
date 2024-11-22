@@ -98,9 +98,13 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
   margin-top: 5%;
   margin-bottom: 7%;
+}
+
+.dv{
+  width: 30%;
 }
 
 .slideshow-container {
@@ -198,11 +202,8 @@ hr {
 .img_tam {
   margin-top: -1.2%;
   width: 100%;
-  height: 500px;
+  height: 550px;
 }
-
-
-
 
 .dashed-line {
   display: block;
@@ -210,19 +211,13 @@ hr {
   border-top: 4px dotted #2e9e37;
   opacity: 70%;
   margin-top: -1.3%;
-  width: 93%;
-  margin-left: 3%;
+  width: 92%;
+  margin-left: 4%;
   margin-right: auto;
   background-color: transparent;
 
   text-align: center;
 
-
-
-}
-
-.quest {
-  width: 65%;
 }
 
 .dark .dashed-line {
@@ -235,7 +230,7 @@ hr {
   margin-top: 2%;
   font-size: 200%;
   margin-top: 5%;
-  margin-left: 3%;
+  margin-left: 4%;
   font-weight: lighter;
 }
 
@@ -292,15 +287,15 @@ hr {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 90%;
-  background: linear-gradient(to bottom, #8dff70 0, #2f9b1a 100%);
-  margin-top: -107%;
+  background: linear-gradient(to bottom, #8dff4f 0, #30891e 100%);
+  margin-top: -100%;
 }
 
 .janela-conteudo-button {
   position: relative;
   z-index: 10;
   border-radius: 25px 25px 25px 25px;
-  background: linear-gradient(to top, #4af767 0%, #55b42f 100%);
+  background: linear-gradient(to top, #76d313 0%, #318410 100%);
   width: 70%;
   height: 40px;
   display: flex;
@@ -346,10 +341,6 @@ hr {
   font-weight: bold;
 }
 
-.geo {
-  margin-top: 47%;
-}
-
 .janela-descricao {
   margin-top: 3%;
   margin-left: 3%;
@@ -365,54 +356,54 @@ hr {
 
 
 /* Versão mobile */
-@media (max-width: 480px){
-  
+@media (max-width: 480px) {
+
   .navegacao ul {
     margin: 0;
     padding: 0;
     margin-top: 5%;
   }
-  
+
   .navegacao li a {
     padding: 14px 16px;
     font-size: 90%;
   }
-  
+
   hr {
     width: 50%;
     height: 1.5px;
     opacity: 50%;
   }
-  
+
   .hr-top {
     margin-top: 8%;
   }
-  
+
   .hr-bottom {
     margin-bottom: 4%;
   }
-  
+
   .titulo {
     font-size: 130%;
   }
- 
+
   .texto {
     text-indent: 10%;
     font-size: 80%;
     padding-right: 13%;
     padding-left: 12%;
   }
-  
+
   .img-text {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 7%;
   }
-  
+
   .slideshow-container {
     max-width: 100%;
   }
-  
+
   .prev {
     top: 50%;
     margin-top: -22px;
@@ -420,7 +411,7 @@ hr {
     font-size: 18px;
     border-radius: 0 3px 3px 0;
   }
-  
+
   .next {
     top: 50%;
     margin-top: -22px;
@@ -429,12 +420,12 @@ hr {
     font-size: 18px;
     border-radius: 0 3px 3px 0;
   }
-  
+
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
+
   .dot {
     height: 10px;
     width: 10px;
@@ -447,11 +438,11 @@ hr {
     margin-bottom: 10%;
   }
 
-  
+
   .img_tam {
     margin-top: 0;
     width: 100%;
     height: 235px;
   }
-  
+
 }

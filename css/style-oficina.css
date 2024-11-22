@@ -25,15 +25,6 @@
     color: white;
 }
 
-.PDF {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-    width: 500px;
-    height: 500px;
-}
-
 /* Slideshow container */
 .slideshow-container {
     display: block;

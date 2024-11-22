@@ -23,7 +23,7 @@ nav {
 }
 
 .logo {
-  margin-top: 0.8%;
+  margin-top: 0.2%;
   margin-left: 5%;
   height: 12%;
   position: absolute;
@@ -60,14 +60,14 @@ nav ul li a {
 
 li a.active,
 li a:hover {
-  background: #78af4a;
+  background: #78ab4e;
   transition: 0.5s;
   color: #ffffff;
 }
 
 .dark li a.active,
 li a:hover {
-  background: #98ac40;
+  background: #315022;
   color: #ffffff;
 }
 
@@ -122,7 +122,7 @@ li a:hover {
   color: #8db875;
   text-align: right;
   margin-top: -30%;
-  margin-right: -380%;
+  margin-right: -500%;
 }
 
 .dark .copyright {
