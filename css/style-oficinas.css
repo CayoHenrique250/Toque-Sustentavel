@@ -1,0 +1,57 @@
+.sobre-projeto {
+    margin-top: 6%;
+    margin-bottom: -3%;
+    background-color: #85c74f;
+    width: 13%;
+    height: 60px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+  }
+
+  .adultos{
+    margin-top: 85%;
+  }
+  
+  .dark .sobre-projeto {
+    background-color: #449434;
+  }
+  
+  .sobre-projeto h1 {
+    margin-top: 0.7%;
+    position: absolute;
+    color: white;
+    margin-left: 2.2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .ball-green1 {
+    margin-left: 41%;
+    background-color: #85c74f;
+    width: 5%;
+    height: 60px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 0;
+  }
+  
+  .dark .ball-green1 {
+    background-color: #449434;
+  }
+  
+  .ball-green2 {
+    margin-left: 54%;
+    background-color: #85c74f;
+    width: 5%;
+    height: 60px;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 0;
+  
+  }
+  
+  .dark .ball-green2 {
+    background-color: #449434;
+  }
+  

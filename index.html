@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png+xml" href="public/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-home.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <title>Toque Sustentável</title>
+</head>
+
+<body>
+  <nav>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <a href="index.html">
+      <img class="logo" src="img/logo-transparente.png" alt="Logo do site Toque Sustentável">
+    </a>
+
+    <div id="toolbar" class="hidden">
+
+      <div class="ball-green"></div>
+
+      <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <div class="moon">
+            <img src="img/lua.png" alt="imagem lua">
+          </div>
+          <div class="sun">
+            <img src="img/sol.png" alt="imagem sol">
+          </div>
+          <div class="ball"></div>
+        </label>
+      </div>
+
+      <div id="aumentarTexto" class="mm text mais">
+        <img src="img/A+.png" alt="Aumentar texto">
+      </div>
+      <div id="diminuirTexto" class="mm text menos">
+        <img src="img/A-.png" alt="Aumentar texto">
+      </div>
+    </div>
+
+    <div id="toggleButton">
+      <div class="barra-ferramentas"></div>
+      <img class="down" src="img/down.png" alt="icone para mostrar mais ferramentas">
+    </div>
+
+    <ul>
+      <li><a class="active" href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="oficinas.html">Oficinas</a></li>
+      <li><a href="tutoriais.html">Tutoriais</a></li>
+      <li><a href="contato.html">Contate-nos</a></li>
+    </ul>
+  </nav>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back1.jpg" alt="Imagem alunos apresentando o projeto">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back2.jpg" alt="Imagem menino jogando lixo na lixeira correta">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back3.jpg" alt="Imagem alunos aplicando dinâmica do cubo sensorial">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back4.jpg"
+        alt="Imagem integrante do projeto passando a dinâmica para um mulher com deficiência visual">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back5.jpg"
+        alt="Imagem integrante do projeto passando a dinâmica para um homem com deficiência visual">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back6.jpg" alt="Imagem homem tateando o cubo tátil do projeto">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="img_tam" src="img/home/slideshow/back7.jpg"
+        alt="Imagem adultos participantes do projeto prestandoa atenção na explicação sobre a dinâmica">
+    </div>
+
+    <a class="prev" onclick="previousSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+  </div>
+  <br>
+
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+  <div class="navegacao">
+    <ul>
+      <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+      <li><a href="#acessibilidade">Acessibilidade</a></li>
+      <li><a href="#dv">Deficiente Visual</a></li>
+      <li><a href="#tsi">Tecnologia Sustentável e Inclusiva</a></li>
+    </ul>
+  </div>
+
+  <div id="sustentabilidade">
+    <hr class="hr-top">
+    <h1 class="titulo">Sustentabilidade</h1>
+    <hr class="hr-bottom">
+    <div class="texto">
+      <p>
+        Em um mundo individualista, regido por uma acentuada cultura de
+        consumo, hábitos sustentáveis surgem na busca pelo equilíbrio entre a
+        disponibilidade de recursos naturais e a exploração dos mesmos pela
+        sociedade. Apesar de muito se ouvir falar sobre sustentabilidade, seus
+        fins nem sempre são compreendidos. Categoricamente, alcança-se a
+        sustentabilidade através de um desenvolvimento social, ambiental e
+        economicamente sustentável, que, por sua vez, busca satisfazer as
+        necessidades da geração presente sem comprometer o abastecimento de
+        recursos para a próxima geração. O despertar de uma consciência social
+        acerca do aprimoramento desse desenvolvimento sustentável começa a ser
+        trabalhado com a incorporação e a prática diária de pequenas ações.
+      </p>
+      <p>
+        Evitar o uso de sacolas plásticas, economizar água e energia elétrica,
+        são algumas ações que exemplificam, de maneira simples, como a
+        sustentabilidade pode ser incluída rotineiramente na vida da
+        sociedade, desmistificando e tornando mais acessível a sua execução.
+        Dessa forma, a educação ambiental torna-se uma ferramenta essencial
+        para a construção de um mundo ecologicamente correto. Foi nesse
+        cenário, que o projeto Tecnologia a serviço do meio ambiente buscou
+        promover a propagação do pensamento sustentável ainda nos anos
+        iniciais, através de informação, reutilização e coletividade. Já que,
+        para que possa haver um desenvolvimento sustentável, primeiro é
+        preciso existir um desenvolvimento humano, reaproximando o homem da
+        natureza.
+      </p>
+      <img class="img-text" src="img/home/sustentabilidade.jpg"
+        alt="Imagem de uma mão segurando um globo e umas folhas">
+      <br><br>
+    </div>
+  </div>
+
+  <div id="acessibilidade" style="background-color: rgb(219, 255, 172)">
+    <br>
+    <hr class="hr-top">
+    <h1 class="titulo td">Acessibilidade</h1>
+    <hr class="hr-bottom">
+    <div class="texto td">
+      <p>
+        Em um mundo repleto de barreiras físicas, sociais e comunicacionais, a acessibilidade surge como um direito
+        essencial, garantindo que todas as pessoas, com ou sem deficiência, tenham acesso pleno a espaços, informações e
+        serviços. Vai além de adaptações físicas, abrangendo a inclusão em todos os aspectos da vida, promovendo
+        igualdade e autonomia.
+      </p>
+      <p>
+        Pequenas ações, como a instalação de pisos táteis, placas em braille, rampas de acesso e tecnologias assistivas,
+        mostram como a acessibilidade pode ser integrada ao cotidiano. Projetos educativos e sociais são fundamentais
+        para conscientizar a sociedade sobre a importância de eliminar barreiras, criando um ambiente mais inclusivo e
+        respeitoso para todos.
+      </p>
+      <img class="img-text img-color" src="img/home/acessibilidade.png"
+        alt="Representação de pessoas com deficiência física">
+      <br>
+    </div>
+  </div>
+  <hr style="width: 100%; opacity: 0">
+
+  <div id="dv">
+    <br>
+    <hr class="hr-top">
+    <h1 class="titulo">Deficiente Visual</h1>
+    <hr class="hr-bottom">
+    <div class="texto">
+      <p>
+        O deficiente visual enfrenta diversos desafios no dia a dia devido à falta de acessibilidade em muitos espaços e
+        serviços. Para garantir sua inclusão, é fundamental implementar recursos como pisos táteis, placas em braille,
+        sinalizações sonoras e tecnologias assistivas, que promovem autonomia e segurança.
+      </p>
+      <p>
+        Além disso, a conscientização da sociedade e a capacitação de profissionais são essenciais para eliminar
+        barreiras e facilitar a interação. Com essas medidas, é possível assegurar que o deficiente visual tenha acesso
+        pleno à educação, ao trabalho e à convivência social, promovendo igualdade de oportunidades.
+      </p>
+      <img class="img-text img-color" src="img/home/dv.png" alt="Representação deficiente visual">
+      <br>
+    </div>
+  </div>
+  <div id="tsi" style="background-color: rgb(219, 255, 172)">
+    <br>
+    <hr class="hr-top">
+    <h1 class="titulo td">Tecnologia Sustentável e Inclusiva</h1>
+    <hr class="hr-bottom">
+    <div class="texto td">
+      <p>
+        A união entre tecnologia, sustentabilidade e acessibilidade é essencial para construir uma sociedade mais
+        inclusiva e responsável. A tecnologia tem o poder de transformar realidades, oferecendo soluções inovadoras para
+        reduzir impactos ambientais e superar barreiras enfrentadas por pessoas com deficiência. Quando aplicada com um
+        olhar sustentável, pode otimizar o uso de recursos naturais, promover a economia circular e criar alternativas
+        ecológicas para o desenvolvimento.
+      </p>
+      <p>
+        Ao integrar acessibilidade, essas soluções tornam-se mais inclusivas, garantindo que todos, independentemente de
+        limitações, possam usufruir dos benefícios tecnológicos. Aplicativos com descrições em áudio, dispositivos
+        assistivos alimentados por energia renovável e plataformas acessíveis são exemplos de como essa conexão pode
+        impactar positivamente a sociedade. Trabalhar essa integração não apenas amplia oportunidades, mas também
+        reforça o compromisso com um futuro mais sustentável, equitativo e acessível para todos.
+      </p>
+      <img class="img-text img-color" src="img/home/união.png"
+        alt="Representação da união entre tecnologia e meio ambiente">
+      <br>
+    </div>
+  </div>
+
+
+  <h3 class="title_recomendados">Recomendados</h3>
+  <hr class="dashed-line">
+
+
+  <div class="container-recomendados">
+    <a href="#">
+      <div class="janela-conteudo">
+        <div class="gradient-bg"></div>
+        <img src="img/IMAGEM ALEATORIA.jpg">
+        <div class="janela-conteudo-tag">TUTORIAL</div>
+        <div class="janela-conteudo-info">
+          <div class="janela-titulo">TITULO</div>
+          <div class="janela-descricao">DESCRIÇÃO</div>
+        </div>
+        <div class="janela-conteudo-button">SAIBA MAIS</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="container-recomendados">
+    <a href="#">
+      <div class="janela-conteudo">
+        <div class="gradient-bg"></div>
+        <img src="img/IMAGEM ALEATORIA.jpg">
+        <div class="janela-conteudo-tag">OFICINA</div>
+        <div class="janela-conteudo-info">
+          <div class="janela-titulo">TITULO</div>
+          <div class="janela-descricao">DESCRIÇÃO</div>
+        </div>
+        <div class="janela-conteudo-button">SAIBA MAIS</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="container-recomendados">
+    <a href="#">
+      <div class="janela-conteudo">
+        <div class="gradient-bg"></div>
+        <img src="img/IMAGEM ALEATORIA.jpg">
+        <div class="janela-conteudo-tag">TUTORIAL</div>
+        <div class="janela-conteudo-info">
+          <div class="janela-titulo">TITULO</div>
+          <div class="janela-descricao">DESCRIÇÃO</div>
+        </div>
+        <div class="janela-conteudo-button">SAIBA MAIS</div>
+      </div>
+    </a>
+  </div>
+
+
+  <footer>
+    <div class="footer">
+      <br>
+      <div class="row">
+        <div class="footer_left"></div>
+        <div class="footer-col">
+          <h3 class="titulo-footer">MENU</h3>
+          <br>
+          <div class="links-footer">
+            <a href="index.html">Início</a>
+            <br><br>
+            <a href="sobre.html">Sobre</a>
+            <br><br>
+            <a href="oficinas.html">Oficinas</a>
+            <br><br>
+            <a href="tutoriais.html">Tutoriais</a>
+            <br><br>
+            <a href="contato.html">Contate-nos</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3 class="titulo-footer">TUTORIAIS</h3>
+          <br>
+          <div class="links-footer">
+            <a href="tutoriais/tutorial1.html">Tutorial 1</a>
+            <br><br>
+            <a href="tutoriais/tutorial2.html">Tutorial 2</a>
+            <br><br>
+            <a href="tutoriais/tutorial3.html">Tutorial 3</a>
+            <br><br>
+            <a href="tutoriais/tutorial4.html">Tutorial 4</a>
+            <br><br>
+            <a href="tutoriais/tutorial5.html">Tutorial 5</a>
+            <br><br>
+            <a href="tutoriais/tutorial6.html">Tutorial 6</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="titulo-footer">OFICINAS CRIANÇAS</h3>
+          <br>
+          <div class="links-footer">
+            <a href="oficinas/crianças/oficina1.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/crianças/oficina2.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/crianças/oficina3.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/crianças/oficina4.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/crianças/oficina5.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/crianças/oficina6.html">Titulo</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="titulo-footer">OFICINAS ADULTOS</h3>
+          <br>
+          <div class="links-footer">
+            <a href="oficinas/adultos/oficina1.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/adultos/oficina2.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/adultos/oficina3.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/adultos/oficina4.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/adultos/oficina5.html">Titulo</a>
+            <br><br>
+            <a href="oficinas/adultos/oficina6.html">Titulo</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="titulo-footer">CONTATO</h3>
+          <br>
+          <div class="links-footer">
+            <a href="https://www.instagram.com/toque_sustentavel/">Instagram</a>
+            <br><br>
+            <a href="mailto:chsf3@aluno.ifal.edu.br?subject=Ol%C3%A1!+Venho+do+site+Toque+Sustentável!">Gmail</a>
+            <br><br>
+            <a href="contato.html">Fale conosco</a>
+          </div>
+        </div>
+      </div>
+      <div class="logo-footer-div">
+        <img class="logo-footer" alt="Git Mundo" src="img/mundo.gif">
+        <div class="copyright">
+          <p>© 2024 Copyright all rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div onclick="backTop();">
+    <a href="#topo">
+      <div class="topo">
+        <img src="img/topo.png" alt="Botão de voltar ao topo">
+      </div>
+    </a>
+  </div>
+
+  <script src="js/scroll-animation.js"></script>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script src="js/barra-ferramentas.js"></script>
+  <script src="js/dark-mode.js"></script>
+  <script src="js/tamanhoTexto.js"></script>
+  <script src="js/slideShow.js"></script>
+
+</body>
+
+</html>

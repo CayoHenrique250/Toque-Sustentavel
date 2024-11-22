@@ -1,0 +1,241 @@
+.sobre-projeto {
+  margin-top: 6%;
+  margin-bottom: 5%;
+  background-color: #85c74f;
+  width: 20%;
+  height: 60px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+}
+
+.dark .sobre-projeto {
+  background-color: #449434;
+}
+
+.sobre-projeto h1 {
+  margin-top: 0.7%;
+  position: absolute;
+  color: white;
+  margin-left: 1.2%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ball-green1 {
+  margin-left: 37.5%;
+  background-color: #85c74f;
+  width: 5%;
+  height: 60px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+}
+
+.dark .ball-green1 {
+  background-color: #449434;
+}
+
+.ball-green2 {
+  margin-left: 57.5%;
+  background-color: #85c74f;
+  width: 5%;
+  height: 60px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+
+}
+
+.dark .ball-green2 {
+  background-color: #449434;
+}
+
+.logo-projeto{
+  margin-top: -2%;
+  margin-bottom: 7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  
+}
+
+.linha {
+  width: 40%;
+  margin: auto;
+  opacity: 30%;
+}
+
+.titulo {
+  text-align: center;
+  color: rgb(115, 182, 27);
+  font-size: 170%;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.dark .titulo {
+  color: #d3f7cc;
+}
+
+.texto {
+  text-indent: 4%;
+  font-size: 130%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
+.dark .texto {
+  color: rgb(205, 211, 203);
+}
+
+.conteudo-green {
+  background-color: #dbecc4;
+}
+
+.dark .conteudo-green {
+  background-color: #5a6b42;
+}
+
+.img_text {
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+
+
+.flex {
+  margin-left: 13%;
+  margin-right: 5%;
+  margin-top: 6%;
+  margin-bottom: 28%;
+}
+
+.santos {
+  margin: 10px;
+  float: left;
+  height: 100%;
+  width: 100%;
+  max-width: 11%;
+  max-height: 11%;
+  border-radius: 100%;
+  border: solid 3px #7ead33;
+  transition: .3s all ease;
+  opacity: 60%;
+}
+
+.dark .santos {
+  border: solid 3px #e6ffbe;
+}
+
+.santos:hover {
+  transform: scale(1.3);
+  position: relative;
+  z-index: 10;
+  opacity: 100%;
+}
+
+.ant_sant {
+  position: relative;
+}
+
+.santo_text {
+  font-size: 115%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #75c052;
+}
+
+.dark .santo_text {
+  color: #c3f8aa;
+}
+
+.santo_textt {
+  font-size: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+.dark .santo_textt {
+  color: #f3ffed;
+}
+
+#a11 {
+  transform: translate(-50%, -50%);
+  margin-top: 14.5%;
+  left: 6.5%;
+}
+
+#a1 {
+  transform: translate(-50%, -50%);
+  margin-top: 15.5%;
+  left: 6.5%;
+}
+
+#a22 {
+  margin-top: 13.8%;
+  left: 15.1%;
+}
+
+#a2 {
+  margin-top: 16.5%;
+  left: 17.8%;
+}
+
+#a33 {
+  margin-top: 14%;
+  left: 29.5%;
+}
+
+#a3 {
+  margin-top: 14.5%;
+  left: 31.5%;
+}
+
+#a44 {
+  margin-top: 14%;
+  left: 44.9%;
+}
+
+#a4 {
+  margin-top: 14.5%;
+  left: 44.8%;
+}
+
+#a55 {
+  margin-top: 14%;
+  left: 58%;
+}
+
+#a5 {
+  margin-top: 14.5%;
+  left: 58.8%;
+}
+
+#a66 {
+  margin-top: 14%;
+  left: 71.5%;
+}
+
+#a6 {
+  margin-top: 14.5%;
+  left: 73%;
+}
+
+#a77 {
+  margin-top: 14%;
+  left: 81.5%;
+}
+
+#a7 {
+  margin-top: 14.5%;
+  left: 83%;
+}
