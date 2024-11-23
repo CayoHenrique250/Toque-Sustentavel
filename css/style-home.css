@@ -103,7 +103,7 @@ hr {
   margin-bottom: 7%;
 }
 
-.dv{
+.dv {
   width: 30%;
 }
 
@@ -389,7 +389,7 @@ hr {
 
   .texto {
     text-indent: 10%;
-    font-size: 80%;
+    font-size: 100%;
     padding-right: 13%;
     padding-left: 12%;
   }
@@ -442,7 +442,106 @@ hr {
   .img_tam {
     margin-top: 0;
     width: 100%;
-    height: 235px;
+    height: 300px;
+  }
+
+
+
+  .dashed-line {
+    border-top: 4px dotted #2e9e37;
+    opacity: 70%;
+    margin-top: -5.3%;
+    width: 72%;
+    margin-left: 4%;
+
+  }
+
+  .dark .dashed-line {
+    border-top: 4px dotted #d3ffd1;
+  }
+
+  .title_recomendados {
+    margin-top: 2%;
+    font-size: 150%;
+    margin-top: 5%;
+    margin-left: 4%;
+    font-weight: bold;
+  }
+
+  .container-recomendados {
+    margin-top: 4%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .janela-conteudo {
+    border-radius: 30px;
+    height: 300px;
+  }
+
+  .janela-conteudo-tag {
+    position: relative;
+    z-index: 10;
+    padding-inline: 15px;
+    width: 30%;
+    border-radius: 0 25px 25px 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background: linear-gradient(to bottom, #8dff4f 0, #30891e 100%);
+    margin-top: -75%;
+  }
+
+  .janela-conteudo-button {
+    position: relative;
+    z-index: 10;
+    border-radius: 25px 25px 25px 25px;
+    background: linear-gradient(to top, #76d313 0%, #318410 100%);
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-weight: bold;
+  }
+
+  .janela-conteudo-button:hover {
+    background: #63ee63;
+  }
+
+  .janela-titulo {
+    margin-top: 15%;
+    margin-left: 2%;
+    font-size: 170%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+  }
+
+  .janela-descricao {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d3f7cc;
+    position: relative;
+    z-index: 2;
   }
 
 }

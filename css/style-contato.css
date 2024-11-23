@@ -56,7 +56,7 @@ textarea {
     border-radius: 5px;
 }
 
-.dark input{
+.dark input {
     color: #ffffff;
 }
 
@@ -130,9 +130,17 @@ button:hover {
 }
 
 .thank-you-content h2,
+
 p {
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright {
+    color: #8db875;
+    text-align: right;
+    margin-top: -30%;
+    margin-right: -450%;
 }
 
 .close-thank-you {
@@ -216,7 +224,7 @@ iframe {
 
 /* Versão mobile */
 @media (max-width: 480px) {
-    
+
     hr {
         width: 55%;
         height: 1px;
