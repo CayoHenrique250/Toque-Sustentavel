@@ -106,22 +106,6 @@ video {
         font-size: 90%;
     }
     
-    .video-container {
-        width: 85%;
-        margin: 0 auto;
-    }
-    
-    .video-container h4 {
-        font-size: 80%;
-    }
-    
-    video {
-        width: 100%;
-        height: auto;
-        border: 2px solid #c4d6a7;
-        border-radius: 10px;
-    }
-    
     .texto {
         text-indent: 1%;
         padding-right: 15%;
